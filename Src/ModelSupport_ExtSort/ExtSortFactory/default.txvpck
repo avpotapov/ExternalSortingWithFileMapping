@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodeSet version="1.0">
+  <view uin="em9rst6xbmi_v">
+    <property name="$defaultDiagram" value="true" />
+    <property name="$metaclass" value="Package Diagram" />
+    <property name="$name" value="default" />
+    <reference referencedUin="delphi:e_class:src:ExtSort:ExtSortFactory.@unitclass">
+      <property name="$shortcutReference" value="true" />
+    </reference>
+    <reference referencedUin="delphi:e_class:src:ExtSort:ExtSortFactory.TSortFactorySingleton">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="380,20,235,522" />
+      <property name="location_set_by_user" value="True" />
+      <reference referencedUin="delphi:e_method:src:ExtSort:ExtSortFactory.TSortFactorySingleton.Create()">
+        <property name="bounds" value="517,239,0,0" />
+      </reference>
+      <reference referencedUin="delphi:e_field:src:ExtSort:ExtSortFactory.TSortFactorySingleton.FInstance">
+        <property name="bounds" value="517,239,0,0" />
+      </reference>
+      <reference referencedUin="delphi:e_method:src:ExtSort:ExtSortFactory.TSortFactorySingleton.GetInstance()">
+        <property name="bounds" value="517,239,0,0" />
+      </reference>
+      <reference referencedUin="delphi:l_ast:src:ExtSort:ExtSortFactory.TSortFactorySingleton.FInstance">
+        <property name="sourceAnchor" value="380,188" />
+        <property name="targetAnchor" value="255,188" />
+        <property name="bendpoints" value="" />
+      </reference>
+      <reference referencedUin="delphi:e_field:src:ExtSort:ExtSortFactory.TSortFactorySingleton.FSrcFileName" />
+      <reference referencedUin="delphi:e_field:src:ExtSort:ExtSortFactory.TSortFactorySingleton.FDscFileName" />
+      <reference referencedUin="delphi:e_field:src:ExtSort:ExtSortFactory.TSortFactorySingleton.FFileReaderClass" />
+      <reference referencedUin="delphi:e_field:src:ExtSort:ExtSortFactory.TSortFactorySingleton.FFileWriterClass" />
+      <reference referencedUin="delphi:e_field:src:ExtSort:ExtSortFactory.TSortFactorySingleton.FSeriesCreatorClass" />
+      <reference referencedUin="delphi:e_field:src:ExtSort:ExtSortFactory.TSortFactorySingleton.FMergerClass" />
+      <reference referencedUin="delphi:e_method:src:ExtSort:ExtSortFactory.TSortFactorySingleton.SetSrcFileName(System.string)" />
+      <reference referencedUin="delphi:e_method:src:ExtSort:ExtSortFactory.TSortFactorySingleton.SetDscFileName(System.string)" />
+      <reference referencedUin="delphi:e_method:src:ExtSort:ExtSortFactory.TSortFactorySingleton.SetFileReaderClass(ExtSortFile.TFileClass)" />
+      <reference referencedUin="delphi:e_method:src:ExtSort:ExtSortFactory.TSortFactorySingleton.SetFileWriterClass(ExtSortFile.TFileClass)" />
+      <reference referencedUin="delphi:e_property:src:ExtSort:ExtSortFactory.TSortFactorySingleton.SrcFileName" />
+      <reference referencedUin="delphi:e_property:src:ExtSort:ExtSortFactory.TSortFactorySingleton.DscFileName" />
+      <reference referencedUin="delphi:e_property:src:ExtSort:ExtSortFactory.TSortFactorySingleton.FileReaderClass" />
+      <reference referencedUin="delphi:e_property:src:ExtSort:ExtSortFactory.TSortFactorySingleton.FileWriterClass" />
+      <reference referencedUin="delphi:e_property:src:ExtSort:ExtSortFactory.TSortFactorySingleton.SeriesCreatorClass" />
+      <reference referencedUin="delphi:e_property:src:ExtSort:ExtSortFactory.TSortFactorySingleton.MergerClass" />
+      <reference referencedUin="delphi:l_impl:src:ExtSort:ExtSortFactory.TSortFactorySingleton:ExtSortFactory.ISortFactorySingleton">
+        <property name="sourceAnchor" value="380,196" />
+        <property name="targetAnchor" value="255,196" />
+        <property name="bendpoints" value="" />
+      </reference>
+      <reference referencedUin="delphi:e_method:src:ExtSort:ExtSortFactory.TSortFactorySingleton.GetReader(System.string)" />
+      <reference referencedUin="delphi:e_method:src:ExtSort:ExtSortFactory.TSortFactorySingleton.GetWriter(System.string)" />
+      <reference referencedUin="delphi:e_field:src:ExtSort:ExtSortFactory.TSortFactorySingleton.FMergeControllerClass" />
+      <reference referencedUin="delphi:e_method:src:ExtSort:ExtSortFactory.TSortFactorySingleton.GetMergerController()" />
+      <reference referencedUin="delphi:e_property:src:ExtSort:ExtSortFactory.TSortFactorySingleton.MergeControllerClass" />
+      <reference referencedUin="delphi:e_method:src:ExtSort:ExtSortFactory.TSortFactorySingleton.SetSeriesCreatorClass(ExtSortThread.TSortClass)" />
+      <reference referencedUin="delphi:e_method:src:ExtSort:ExtSortFactory.TSortFactorySingleton.SetMergerClass(ExtSortThread.TSortClass)" />
+      <reference referencedUin="delphi:e_method:src:ExtSort:ExtSortFactory.TSortFactorySingleton.SetMergeControllerClass(ExtSortThread.TSortClass)" />
+      <reference referencedUin="delphi:e_method:src:ExtSort:ExtSortFactory.TSortFactorySingleton.GetMerger(ExtSortThread.IMergeController,System.string[])" />
+      <reference referencedUin="delphi:e_method:src:ExtSort:ExtSortFactory.TSortFactorySingleton.GetSeriesCreator(ExtSortThread.IMergeController,System.Int64[])" />
+    </reference>
+    <reference referencedUin="design:node:::7bxu03dnvwoiqncxl_n">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="840,120,276,79" />
+      <property name="location_set_by_user" value="True" />
+      <reference referencedUin="design:link:::wadtdr1mwwojgjdvj_l:7bxu03dnvwoiqncxl_n">
+        <property name="bounds" value="517,239,0,0" />
+        <property name="sourceAnchor" value="840,159" />
+        <property name="targetAnchor" value="615,159" />
+        <property name="bendpoints" value="" />
+        <reference referencedUin="label:@supplierRole:design:link:::wadtdr1mwwojgjdvj_l:7bxu03dnvwoiqncxl_n">
+          <property name="bounds" value="625,140,56,16" />
+        </reference>
+      </reference>
+    </reference>
+    <reference referencedUin="delphi:e_class:src:ExtSort:ExtSortFactory.ISortFactorySingleton">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="20,20,235,353" />
+      <property name="location_set_by_user" value="True" />
+      <reference referencedUin="delphi:e_method:src:ExtSort:ExtSortFactory.ISortFactorySingleton.SetSrcFileName(System.string)" />
+      <reference referencedUin="delphi:e_method:src:ExtSort:ExtSortFactory.ISortFactorySingleton.SetDscFileName(System.string)" />
+      <reference referencedUin="delphi:e_method:src:ExtSort:ExtSortFactory.ISortFactorySingleton.SetFileReaderClass(ExtSortFile.TFileClass)" />
+      <reference referencedUin="delphi:e_method:src:ExtSort:ExtSortFactory.ISortFactorySingleton.SetFileWriterClass(ExtSortFile.TFileClass)" />
+      <reference referencedUin="delphi:e_property:src:ExtSort:ExtSortFactory.ISortFactorySingleton.SrcFileName" />
+      <reference referencedUin="delphi:e_property:src:ExtSort:ExtSortFactory.ISortFactorySingleton.DscFileName" />
+      <reference referencedUin="delphi:e_property:src:ExtSort:ExtSortFactory.ISortFactorySingleton.FileReaderClass" />
+      <reference referencedUin="delphi:e_property:src:ExtSort:ExtSortFactory.ISortFactorySingleton.FileWriterClass" />
+      <reference referencedUin="delphi:e_property:src:ExtSort:ExtSortFactory.ISortFactorySingleton.SeriesCreatorClass" />
+      <reference referencedUin="delphi:e_property:src:ExtSort:ExtSortFactory.ISortFactorySingleton.MergerClass" />
+      <reference referencedUin="delphi:e_property:src:ExtSort:ExtSortFactory.ISortFactorySingleton.MergeControllerClass" />
+      <reference referencedUin="delphi:e_method:src:ExtSort:ExtSortFactory.ISortFactorySingleton.GetMerger(ExtSortThread.IMergeController,System.string[])" />
+      <reference referencedUin="delphi:e_method:src:ExtSort:ExtSortFactory.ISortFactorySingleton.SetSeriesCreatorClass(ExtSortThread.TSortClass)" />
+      <reference referencedUin="delphi:e_method:src:ExtSort:ExtSortFactory.ISortFactorySingleton.SetMergerClass(ExtSortThread.TSortClass)" />
+      <reference referencedUin="delphi:e_method:src:ExtSort:ExtSortFactory.ISortFactorySingleton.SetMergeControllerClass(ExtSortThread.TSortClass)" />
+      <reference referencedUin="delphi:e_method:src:ExtSort:ExtSortFactory.ISortFactorySingleton.GetReader(System.string)" />
+      <reference referencedUin="delphi:e_method:src:ExtSort:ExtSortFactory.ISortFactorySingleton.GetWriter(System.string)" />
+      <reference referencedUin="delphi:e_method:src:ExtSort:ExtSortFactory.ISortFactorySingleton.GetMergerController()" />
+      <reference referencedUin="delphi:e_method:src:ExtSort:ExtSortFactory.ISortFactorySingleton.GetSeriesCreator(ExtSortThread.IMergeController,System.Int64[])" />
+    </reference>
+  </view>
+</nodeSet>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodeSet version="1.0">
+  <node uin="7bxu03dnvwoiqncxl_n">
+    <property name="$metaclass" value="Pattern" />
+    <property name="$name" value="Singleton" />
+    <property name="PatternUPID" value="{2004-11-30-7-31-41-705-01016}" />
+    <link uin="wadtdr1mwwojgjdvj_l">
+      <property name="$metaclass" value="DesignPatternLink" />
+      <property name="$name" value="TSortFactorySingleton" />
+      <property name="@supplierRole" value="_Singleton" />
+      <participant referencedUin="design:node:::7bxu03dnvwoiqncxl_n" role="Client" />
+      <participant referencedUin="delphi:e_class:src:ExtSort:ExtSortFactory.TSortFactorySingleton" role="Supplier" />
+    </link>
+  </node>
+</nodeSet>

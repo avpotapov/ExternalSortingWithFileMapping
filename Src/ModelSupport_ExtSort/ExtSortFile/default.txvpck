@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodeSet version="1.0">
+  <view uin="g2rqlguzebg_v">
+    <property name="$defaultDiagram" value="true" />
+    <property name="$metaclass" value="Package Diagram" />
+    <property name="$name" value="default" />
+    <reference referencedUin="delphi:e_class:src:ExtSort:ExtSortFile.IFileReader">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="60,400,137,158" />
+      <property name="location_set_by_user" value="True" />
+      <reference referencedUin="delphi:e_method:src:ExtSort:ExtSortFile.IFileReader.SetBoundaries(ref@System.Int64,ref@System.Int64)" />
+      <reference referencedUin="delphi:e_method:src:ExtSort:ExtSortFile.IFileReader.ReadString(out@System.AnsiString)" />
+      <reference referencedUin="delphi:e_method:src:ExtSort:ExtSortFile.IFileReader.GetPosition()" />
+      <reference referencedUin="delphi:e_method:src:ExtSort:ExtSortFile.IFileReader.GetSize()" />
+      <reference referencedUin="delphi:e_property:src:ExtSort:ExtSortFile.IFileReader.Size" />
+      <reference referencedUin="delphi:e_property:src:ExtSort:ExtSortFile.IFileReader.Position" />
+      <reference referencedUin="delphi:l_gnt:src:ExtSort:ExtSortFile.IFileReader:ExtSortFile.IFile">
+        <property name="sourceAnchor" value="83,400" />
+        <property name="targetAnchor" value="83,116" />
+        <property name="bendpoints" value="" />
+      </reference>
+    </reference>
+    <reference referencedUin="delphi:e_class:src:ExtSort:ExtSortFile.TTextFile">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="260,240,129,128" />
+      <property name="location_set_by_user" value="True" />
+      <reference referencedUin="delphi:e_method:src:ExtSort:ExtSortFile.TTextFile.Open(System.string)" />
+      <reference referencedUin="delphi:e_method:src:ExtSort:ExtSortFile.TTextFile.Close()" />
+      <reference referencedUin="delphi:e_method:src:ExtSort:ExtSortFile.TTextFile.Destroy()" />
+      <reference referencedUin="delphi:l_impl:src:ExtSort:ExtSortFile.TTextFile:ExtSortFile.IFile">
+        <property name="sourceAnchor" value="260,246" />
+        <property name="targetAnchor" value="106,106" />
+        <property name="bendpoints" value="" />
+      </reference>
+    </reference>
+    <reference referencedUin="delphi:e_class:src:ExtSort:ExtSortFile.TFileWriter">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="500,40,190,161" />
+      <property name="location_set_by_user" value="True" />
+      <reference referencedUin="delphi:e_field:src:ExtSort:ExtSortFile.TFileWriter.FWriter" />
+      <reference referencedUin="delphi:e_method:src:ExtSort:ExtSortFile.TFileWriter.Open(System.string)" />
+      <reference referencedUin="delphi:e_method:src:ExtSort:ExtSortFile.TFileWriter.Close()" />
+      <reference referencedUin="delphi:e_method:src:ExtSort:ExtSortFile.TFileWriter.WriteString(System.AnsiString)" />
+      <reference referencedUin="delphi:e_method:src:ExtSort:ExtSortFile.TFileWriter.GetSize()" />
+      <reference referencedUin="delphi:e_method:src:ExtSort:ExtSortFile.TFileWriter.MakeRandomFileName()" />
+      <reference referencedUin="delphi:l_impl:src:ExtSort:ExtSortFile.TFileWriter:ExtSortFile.IFileWriter">
+        <property name="sourceAnchor" value="500,86" />
+        <property name="targetAnchor" value="381,86" />
+        <property name="bendpoints" value="" />
+      </reference>
+      <reference referencedUin="delphi:l_gnt:src:ExtSort:ExtSortFile.TFileWriter:ExtSortFile.TTextFile">
+        <property name="sourceAnchor" value="500,184" />
+        <property name="targetAnchor" value="389,259" />
+        <property name="bendpoints" value="" />
+      </reference>
+    </reference>
+    <reference referencedUin="delphi:e_class:src:ExtSort:ExtSortFile.IFileWriter">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="280,20,101,113" />
+      <property name="location_set_by_user" value="True" />
+      <reference referencedUin="delphi:e_method:src:ExtSort:ExtSortFile.IFileWriter.WriteString(System.AnsiString)" />
+      <reference referencedUin="delphi:e_method:src:ExtSort:ExtSortFile.IFileWriter.GetSize()" />
+      <reference referencedUin="delphi:e_property:src:ExtSort:ExtSortFile.IFileWriter.Size" />
+      <reference referencedUin="delphi:l_gnt:src:ExtSort:ExtSortFile.IFileWriter:ExtSortFile.IFile">
+        <property name="sourceAnchor" value="280,68" />
+        <property name="targetAnchor" value="106,68" />
+        <property name="bendpoints" value="" />
+      </reference>
+    </reference>
+    <reference referencedUin="delphi:e_class:src:ExtSort:ExtSortFile.IFile">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="20,20,86,96" />
+      <property name="location_set_by_user" value="True" />
+      <reference referencedUin="delphi:e_method:src:ExtSort:ExtSortFile.IFile.Close()" />
+      <reference referencedUin="delphi:e_method:src:ExtSort:ExtSortFile.IFile.Open(System.string)" />
+    </reference>
+    <reference referencedUin="delphi:e_class:src:ExtSort:ExtSortFile.TFileReader">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="480,340,171,236" />
+      <property name="location_set_by_user" value="True" />
+      <reference referencedUin="delphi:e_field:src:ExtSort:ExtSortFile.TFileReader.FFileStream" />
+      <reference referencedUin="delphi:e_field:src:ExtSort:ExtSortFile.TFileReader.FReader" />
+      <reference referencedUin="delphi:e_field:src:ExtSort:ExtSortFile.TFileReader.FCurrentPosition" />
+      <reference referencedUin="delphi:e_field:src:ExtSort:ExtSortFile.TFileReader.FEndPosition" />
+      <reference referencedUin="delphi:e_method:src:ExtSort:ExtSortFile.TFileReader.ReturnExactBoundaryLine(ref@System.Int64)" />
+      <reference referencedUin="delphi:e_method:src:ExtSort:ExtSortFile.TFileReader.GetPosition()" />
+      <reference referencedUin="delphi:e_method:src:ExtSort:ExtSortFile.TFileReader.Open(System.string)" />
+      <reference referencedUin="delphi:e_method:src:ExtSort:ExtSortFile.TFileReader.Close()" />
+      <reference referencedUin="delphi:e_method:src:ExtSort:ExtSortFile.TFileReader.SetBoundaries(ref@System.Int64,ref@System.Int64)" />
+      <reference referencedUin="delphi:e_method:src:ExtSort:ExtSortFile.TFileReader.GetSize()" />
+      <reference referencedUin="delphi:e_method:src:ExtSort:ExtSortFile.TFileReader.ReadString(out@System.AnsiString)" />
+      <reference referencedUin="delphi:l_impl:src:ExtSort:ExtSortFile.TFileReader:ExtSortFile.IFileReader">
+        <property name="sourceAnchor" value="480,479" />
+        <property name="targetAnchor" value="197,479" />
+        <property name="bendpoints" value="" />
+      </reference>
+      <reference referencedUin="delphi:l_gnt:src:ExtSort:ExtSortFile.TFileReader:ExtSortFile.TTextFile">
+        <property name="sourceAnchor" value="480,354" />
+        <property name="targetAnchor" value="389,354" />
+        <property name="bendpoints" value="" />
+      </reference>
+    </reference>
+    <reference referencedUin="delphi:e_class:src:ExtSort:ExtSortFile.TFileClass">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="560,240,86,67" />
+      <property name="location_set_by_user" value="True" />
+    </reference>
+    <reference referencedUin="delphi:e_class:src:ExtSort:ExtSortFile.@unitclass">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="delphi:e_field:src:ExtSort:ExtSortFile.@unitclass.MAX_SIZE_COMPARE_STRING" />
+      <reference referencedUin="delphi:e_field:src:ExtSort:ExtSortFile.@unitclass.MAX_STRING_SIZE" />
+    </reference>
+  </view>
+</nodeSet>

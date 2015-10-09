@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodeSet version="1.0">
+  <view uin="w7sjvv0rvqg_v">
+    <property name="$defaultDiagram" value="true" />
+    <property name="$metaclass" value="Package Diagram" />
+    <property name="$name" value="default" />
+    <reference referencedUin="delphi:e_class:src:ExtSort:ExtSortThread.@unitclass">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="delphi:e_field:src:ExtSort:ExtSortThread.@unitclass.AVAILABLE_MEMORY" />
+      <reference referencedUin="delphi:e_field:src:ExtSort:ExtSortThread.@unitclass.NUMBER_PROCESSOR" />
+      <reference referencedUin="delphi:e_field:src:ExtSort:ExtSortThread.@unitclass.WM_SORT_HAS_FINISHED" />
+      <reference referencedUin="delphi:e_method:src:ExtSort:ExtSortThread.@unitclass.CompareShortString(System.AnsiString,System.AnsiString)" />
+    </reference>
+    <reference referencedUin="delphi:e_class:src:ExtSort:ExtSortThread.IMergeController">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="320,0,158,113" />
+      <property name="location_set_by_user" value="True" />
+      <reference referencedUin="delphi:e_method:src:ExtSort:ExtSortThread.IMergeController.Add(System.string)" />
+      <reference referencedUin="delphi:e_method:src:ExtSort:ExtSortThread.IMergeController.SetMergerClass(ExtSortThread.TSortClass)" />
+      <reference referencedUin="delphi:e_property:src:ExtSort:ExtSortThread.IMergeController.MergerClass" />
+      <reference referencedUin="delphi:l_gnt:src:ExtSort:ExtSortThread.IMergeController:ExtSortThread.ISort">
+        <property name="sourceAnchor" value="320,96" />
+        <property name="targetAnchor" value="210,96" />
+        <property name="bendpoints" value="" />
+      </reference>
+      <reference referencedUin="delphi:l_ast:src:ExtSort:ExtSortThread.IMergeController.MergerClass">
+        <property name="sourceAnchor" value="478,33" />
+        <property name="targetAnchor" value="660,33" />
+        <property name="bendpoints" value="" />
+      </reference>
+    </reference>
+    <reference referencedUin="delphi:e_class:src:ExtSort:ExtSortThread.IPhase">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="40,380,207,98" />
+      <property name="location_set_by_user" value="True" />
+      <reference referencedUin="delphi:e_method:src:ExtSort:ExtSortThread.IPhase.SetMergeController(ExtSortThread.IMergeController)" />
+      <reference referencedUin="delphi:e_property:src:ExtSort:ExtSortThread.IPhase.MergeController" />
+      <reference referencedUin="delphi:l_gnt:src:ExtSort:ExtSortThread.IPhase:ExtSortThread.ISort">
+        <property name="sourceAnchor" value="125,380" />
+        <property name="targetAnchor" value="125,208" />
+        <property name="bendpoints" value="" />
+      </reference>
+      <reference referencedUin="delphi:l_ast:src:ExtSort:ExtSortThread.IPhase.MergeController">
+        <property name="sourceAnchor" value="176,380" />
+        <property name="targetAnchor" value="359,113" />
+        <property name="bendpoints" value="" />
+      </reference>
+    </reference>
+    <reference referencedUin="delphi:e_class:src:ExtSort:ExtSortThread.ISort">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="40,80,170,128" />
+      <property name="location_set_by_user" value="True" />
+      <reference referencedUin="delphi:e_method:src:ExtSort:ExtSortThread.ISort.Start()" />
+      <reference referencedUin="delphi:e_method:src:ExtSort:ExtSortThread.ISort.Stop()" />
+      <reference referencedUin="delphi:e_method:src:ExtSort:ExtSortThread.ISort.SetSrcFileReader(ExtSortFile.IFileReader)" />
+      <reference referencedUin="delphi:e_property:src:ExtSort:ExtSortThread.ISort.SrcFileReader" />
+    </reference>
+    <reference referencedUin="delphi:e_class:src:ExtSort:ExtSortThread.TAbstractSort">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="340,180,174,282" />
+      <property name="location_set_by_user" value="True" />
+      <reference referencedUin="delphi:e_field:src:ExtSort:ExtSortThread.TAbstractSort.FStop" />
+      <reference referencedUin="delphi:e_field:src:ExtSort:ExtSortThread.TAbstractSort.FSrcFileReader" />
+      <reference referencedUin="delphi:e_field:src:ExtSort:ExtSortThread.TAbstractSort.FFileReaderClass" />
+      <reference referencedUin="delphi:e_field:src:ExtSort:ExtSortThread.TAbstractSort.FFileWriterClass" />
+      <reference referencedUin="delphi:e_field:src:ExtSort:ExtSortThread.TAbstractSort.FThread" />
+      <reference referencedUin="delphi:e_method:src:ExtSort:ExtSortThread.TAbstractSort.SetSrcFileReader(ExtSortFile.IFileReader)" />
+      <reference referencedUin="delphi:e_method:src:ExtSort:ExtSortThread.TAbstractSort.Create(ExtSortFile.TFileClass[])" />
+      <reference referencedUin="delphi:e_method:src:ExtSort:ExtSortThread.TAbstractSort.Destroy()" />
+      <reference referencedUin="delphi:e_method:src:ExtSort:ExtSortThread.TAbstractSort.Initialize()" />
+      <reference referencedUin="delphi:e_method:src:ExtSort:ExtSortThread.TAbstractSort.HasStopped()" />
+      <reference referencedUin="delphi:e_method:src:ExtSort:ExtSortThread.TAbstractSort.Stop()" />
+      <reference referencedUin="delphi:e_method:src:ExtSort:ExtSortThread.TAbstractSort.Start()" />
+      <reference referencedUin="delphi:e_property:src:ExtSort:ExtSortThread.TAbstractSort.SrcFileReader" />
+      <reference referencedUin="delphi:l_impl:src:ExtSort:ExtSortThread.TAbstractSort:ExtSortThread.ISort">
+        <property name="sourceAnchor" value="340,194" />
+        <property name="targetAnchor" value="210,194" />
+        <property name="bendpoints" value="" />
+      </reference>
+    </reference>
+    <reference referencedUin="delphi:e_class:src:ExtSort:ExtSortThread.TMergeController">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="880,40,165,238" />
+      <property name="location_set_by_user" value="True" />
+      <reference referencedUin="delphi:e_field:src:ExtSort:ExtSortThread.TMergeController.FMergerClass" />
+      <reference referencedUin="delphi:e_field:src:ExtSort:ExtSortThread.TMergeController.FCounter" />
+      <reference referencedUin="delphi:e_field:src:ExtSort:ExtSortThread.TMergeController.FMerges" />
+      <reference referencedUin="delphi:e_field:src:ExtSort:ExtSortThread.TMergeController.FQueue" />
+      <reference referencedUin="delphi:e_field:src:ExtSort:ExtSortThread.TMergeController.FMutex" />
+      <reference referencedUin="delphi:e_method:src:ExtSort:ExtSortThread.TMergeController.SetMergerClass(ExtSortThread.TSortClass)" />
+      <reference referencedUin="delphi:e_method:src:ExtSort:ExtSortThread.TMergeController.Create(ExtSortFile.TFileClass[])" />
+      <reference referencedUin="delphi:e_method:src:ExtSort:ExtSortThread.TMergeController.Destroy()" />
+      <reference referencedUin="delphi:e_method:src:ExtSort:ExtSortThread.TMergeController.Start()" />
+      <reference referencedUin="delphi:e_method:src:ExtSort:ExtSortThread.TMergeController.Add(System.string)" />
+      <reference referencedUin="delphi:e_property:src:ExtSort:ExtSortThread.TMergeController.MergerClass" />
+      <reference referencedUin="delphi:l_impl:src:ExtSort:ExtSortThread.TMergeController:ExtSortThread.IMergeController">
+        <property name="sourceAnchor" value="880,76" />
+        <property name="targetAnchor" value="478,76" />
+        <property name="bendpoints" value="" />
+      </reference>
+      <reference referencedUin="delphi:l_gnt:src:ExtSort:ExtSortThread.TMergeController:ExtSortThread.TAbstractSort">
+        <property name="sourceAnchor" value="880,229" />
+        <property name="targetAnchor" value="514,229" />
+        <property name="bendpoints" value="" />
+      </reference>
+      <reference referencedUin="delphi:l_ast:src:ExtSort:ExtSortThread.TMergeController.FMergerClass">
+        <property name="sourceAnchor" value="880,53" />
+        <property name="targetAnchor" value="746,53" />
+        <property name="bendpoints" value="" />
+      </reference>
+      <reference referencedUin="delphi:l_ast:src:ExtSort:ExtSortThread.TMergeController.MergerClass">
+        <property name="sourceAnchor" value="880,45" />
+        <property name="targetAnchor" value="746,45" />
+        <property name="bendpoints" value="" />
+      </reference>
+    </reference>
+    <reference referencedUin="delphi:e_class:src:ExtSort:ExtSortThread.TPhase">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="660,360,209,118" />
+      <property name="location_set_by_user" value="True" />
+      <reference referencedUin="delphi:e_field:src:ExtSort:ExtSortThread.TPhase.FMergeController" />
+      <reference referencedUin="delphi:e_method:src:ExtSort:ExtSortThread.TPhase.SetMergeController(ExtSortThread.IMergeController)" />
+      <reference referencedUin="delphi:e_property:src:ExtSort:ExtSortThread.TPhase.MergeController" />
+      <reference referencedUin="delphi:l_gnt:src:ExtSort:ExtSortThread.TPhase:ExtSortThread.TAbstractSort">
+        <property name="sourceAnchor" value="660,411" />
+        <property name="targetAnchor" value="514,411" />
+        <property name="bendpoints" value="" />
+      </reference>
+      <reference referencedUin="delphi:l_ast:src:ExtSort:ExtSortThread.TPhase.FMergeController">
+        <property name="sourceAnchor" value="808,360" />
+        <property name="targetAnchor" value="880,266" />
+        <property name="bendpoints" value="" />
+      </reference>
+      <reference referencedUin="delphi:l_ast:src:ExtSort:ExtSortThread.TPhase.MergeController">
+        <property name="sourceAnchor" value="704,360" />
+        <property name="targetAnchor" value="456,113" />
+        <property name="bendpoints" value="" />
+      </reference>
+    </reference>
+    <reference referencedUin="delphi:e_class:src:ExtSort:ExtSortThread.TSortClass">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="660,0,86,67" />
+      <property name="location_set_by_user" value="True" />
+    </reference>
+    <reference referencedUin="delphi:e_class:src:ExtSort:ExtSortThread.TMerger">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="420,560,146,238" />
+      <property name="location_set_by_user" value="True" />
+      <reference referencedUin="delphi:e_field:src:ExtSort:ExtSortThread.TMerger.FLeftFileName" />
+      <reference referencedUin="delphi:e_field:src:ExtSort:ExtSortThread.TMerger.FRightFileName" />
+      <reference referencedUin="delphi:e_field:src:ExtSort:ExtSortThread.TMerger.FDscFileName" />
+      <reference referencedUin="delphi:e_method:src:ExtSort:ExtSortThread.TMerger.SetLeftFileName(System.string)" />
+      <reference referencedUin="delphi:e_method:src:ExtSort:ExtSortThread.TMerger.SetRightFileName(System.string)" />
+      <reference referencedUin="delphi:e_method:src:ExtSort:ExtSortThread.TMerger.SetDscFileName(System.string)" />
+      <reference referencedUin="delphi:e_method:src:ExtSort:ExtSortThread.TMerger.MergeFiles()" />
+      <reference referencedUin="delphi:e_method:src:ExtSort:ExtSortThread.TMerger.Start()" />
+      <reference referencedUin="delphi:e_property:src:ExtSort:ExtSortThread.TMerger.LeftFileName" />
+      <reference referencedUin="delphi:e_property:src:ExtSort:ExtSortThread.TMerger.RightFileName" />
+      <reference referencedUin="delphi:e_property:src:ExtSort:ExtSortThread.TMerger.DscFileName" />
+      <reference referencedUin="delphi:l_gnt:src:ExtSort:ExtSortThread.TMerger:ExtSortThread.TPhase">
+        <property name="sourceAnchor" value="566,608" />
+        <property name="targetAnchor" value="702,478" />
+        <property name="bendpoints" value="" />
+      </reference>
+      <reference referencedUin="delphi:l_impl:src:ExtSort:ExtSortThread.TMerger:ExtSortThread.IMerger">
+        <property name="sourceAnchor" value="420,639" />
+        <property name="targetAnchor" value="199,639" />
+        <property name="bendpoints" value="" />
+      </reference>
+    </reference>
+    <reference referencedUin="delphi:e_class:src:ExtSort:ExtSortThread.TSeriesCreator">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="960,560,183,251" />
+      <property name="location_set_by_user" value="True" />
+      <reference referencedUin="delphi:e_field:src:ExtSort:ExtSortThread.TSeriesCreator.FEof" />
+      <reference referencedUin="delphi:e_field:src:ExtSort:ExtSortThread.TSeriesCreator.FStringList" />
+      <reference referencedUin="delphi:e_field:src:ExtSort:ExtSortThread.TSeriesCreator.FAvailableMemory" />
+      <reference referencedUin="delphi:e_field:src:ExtSort:ExtSortThread.TSeriesCreator.FMerge" />
+      <reference referencedUin="delphi:e_method:src:ExtSort:ExtSortThread.TSeriesCreator.PopulateStringList()" />
+      <reference referencedUin="delphi:e_method:src:ExtSort:ExtSortThread.TSeriesCreator.SortStringList()" />
+      <reference referencedUin="delphi:e_method:src:ExtSort:ExtSortThread.TSeriesCreator.SaveStringList()" />
+      <reference referencedUin="delphi:e_method:src:ExtSort:ExtSortThread.TSeriesCreator.NotifyMergeManager(System.string)" />
+      <reference referencedUin="delphi:e_method:src:ExtSort:ExtSortThread.TSeriesCreator.ClearStringList()" />
+      <reference referencedUin="delphi:e_method:src:ExtSort:ExtSortThread.TSeriesCreator.Create(ExtSortFile.TFileClass[])" />
+      <reference referencedUin="delphi:e_method:src:ExtSort:ExtSortThread.TSeriesCreator.Destroy()" />
+      <reference referencedUin="delphi:e_method:src:ExtSort:ExtSortThread.TSeriesCreator.Start()" />
+      <reference referencedUin="delphi:l_impl:src:ExtSort:ExtSortThread.TSeriesCreator:ExtSortThread.IPhase">
+        <property name="sourceAnchor" value="960,659" />
+        <property name="targetAnchor" value="247,457" />
+        <property name="bendpoints" value="" />
+      </reference>
+      <reference referencedUin="delphi:l_gnt:src:ExtSort:ExtSortThread.TSeriesCreator:ExtSortThread.TPhase">
+        <property name="sourceAnchor" value="960,600" />
+        <property name="targetAnchor" value="827,478" />
+        <property name="bendpoints" value="" />
+      </reference>
+      <reference referencedUin="delphi:l_ast:src:ExtSort:ExtSortThread.TSeriesCreator.FMerge">
+        <property name="sourceAnchor" value="1002,560" />
+        <property name="targetAnchor" value="1002,278" />
+        <property name="bendpoints" value="" />
+      </reference>
+    </reference>
+    <reference referencedUin="delphi:e_class:src:ExtSort:ExtSortThread.IMerger">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="60,560,139,158" />
+      <property name="location_set_by_user" value="True" />
+      <reference referencedUin="delphi:e_method:src:ExtSort:ExtSortThread.IMerger.SetLeftFileName(System.string)" />
+      <reference referencedUin="delphi:e_method:src:ExtSort:ExtSortThread.IMerger.SetRightFileName(System.string)" />
+      <reference referencedUin="delphi:e_method:src:ExtSort:ExtSortThread.IMerger.SetDscFileName(System.string)" />
+      <reference referencedUin="delphi:e_property:src:ExtSort:ExtSortThread.IMerger.LeftFileName" />
+      <reference referencedUin="delphi:e_property:src:ExtSort:ExtSortThread.IMerger.RightFileName" />
+      <reference referencedUin="delphi:e_property:src:ExtSort:ExtSortThread.IMerger.DscFileName" />
+      <reference referencedUin="delphi:l_gnt:src:ExtSort:ExtSortThread.IMerger:ExtSortThread.IPhase">
+        <property name="sourceAnchor" value="129,560" />
+        <property name="targetAnchor" value="129,478" />
+        <property name="bendpoints" value="" />
+      </reference>
+    </reference>
+  </view>
+</nodeSet>

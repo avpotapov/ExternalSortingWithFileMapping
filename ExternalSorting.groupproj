@@ -1,0 +1,36 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{CBB897AD-AB7D-4420-83AA-53752422522E}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="Src\ExtSort.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="ExtSort">
+        <MSBuild Projects="Src\ExtSort.dproj"/>
+    </Target>
+    <Target Name="ExtSort:Clean">
+        <MSBuild Projects="Src\ExtSort.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="ExtSort:Make">
+        <MSBuild Projects="Src\ExtSort.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="ExtSort"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="ExtSort:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="ExtSort:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>

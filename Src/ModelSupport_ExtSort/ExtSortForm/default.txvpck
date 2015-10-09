@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodeSet version="1.0">
+  <view uin="hhdvebjmqlr_v">
+    <property name="$defaultDiagram" value="true" />
+    <property name="$metaclass" value="Package Diagram" />
+    <property name="$name" value="default" />
+    <reference referencedUin="delphi:e_class:src:ExtSort:ExtSortForm.@unitclass">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="delphi:e_field:src:ExtSort:ExtSortForm.@unitclass.MainForm" />
+      <reference referencedUin="delphi:l_ast:src:ExtSort:ExtSortForm.@unitclass.MainForm" />
+    </reference>
+    <reference referencedUin="delphi:e_class:src:ExtSort:ExtSortForm.TStatusBarHelper">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="20,20,117,99" />
+      <property name="location_set_by_user" value="True" />
+      <reference referencedUin="delphi:e_method:src:ExtSort:ExtSortForm.TStatusBarHelper.SetInfo(System.string)" />
+      <reference referencedUin="delphi:e_method:src:ExtSort:ExtSortForm.TStatusBarHelper.ElapsedTime(System.TTime)" />
+    </reference>
+    <reference referencedUin="delphi:e_class:src:ExtSort:ExtSortForm.TMainForm">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="240,20,253,400" />
+      <property name="location_set_by_user" value="True" />
+      <reference referencedUin="delphi:e_field:src:ExtSort:ExtSortForm.TMainForm.SrcButtonedEdit" />
+      <reference referencedUin="delphi:e_field:src:ExtSort:ExtSortForm.TMainForm.SortButton" />
+      <reference referencedUin="delphi:e_field:src:ExtSort:ExtSortForm.TMainForm.DscButtonedEdit" />
+      <reference referencedUin="delphi:e_field:src:ExtSort:ExtSortForm.TMainForm.SrcLabel" />
+      <reference referencedUin="delphi:e_field:src:ExtSort:ExtSortForm.TMainForm.DestLabel" />
+      <reference referencedUin="delphi:e_field:src:ExtSort:ExtSortForm.TMainForm.StatusBar" />
+      <reference referencedUin="delphi:e_field:src:ExtSort:ExtSortForm.TMainForm.ImageList" />
+      <reference referencedUin="delphi:e_field:src:ExtSort:ExtSortForm.TMainForm.SaveTextFileDialog" />
+      <reference referencedUin="delphi:e_field:src:ExtSort:ExtSortForm.TMainForm.OpenTextFileDialog" />
+      <reference referencedUin="delphi:e_field:src:ExtSort:ExtSortForm.TMainForm.Timer" />
+      <reference referencedUin="delphi:e_method:src:ExtSort:ExtSortForm.TMainForm.FormCreate(System.TObject)" />
+      <reference referencedUin="delphi:e_method:src:ExtSort:ExtSortForm.TMainForm.SortButtonClick(System.TObject)" />
+      <reference referencedUin="delphi:e_method:src:ExtSort:ExtSortForm.TMainForm.SrcButtonedEditRightButtonClick(System.TObject)" />
+      <reference referencedUin="delphi:e_method:src:ExtSort:ExtSortForm.TMainForm.DscButtonedEditRightButtonClick(System.TObject)" />
+      <reference referencedUin="delphi:e_method:src:ExtSort:ExtSortForm.TMainForm.FormCloseQuery(System.TObject,ref@System.Boolean)" />
+      <reference referencedUin="delphi:e_method:src:ExtSort:ExtSortForm.TMainForm.TimerTimer(System.TObject)" />
+      <reference referencedUin="delphi:e_field:src:ExtSort:ExtSortForm.TMainForm.FSeriesPool" />
+      <reference referencedUin="delphi:e_field:src:ExtSort:ExtSortForm.TMainForm.FTime" />
+      <reference referencedUin="delphi:e_method:src:ExtSort:ExtSortForm.TMainForm.StartSort()" />
+      <reference referencedUin="delphi:e_method:src:ExtSort:ExtSortForm.TMainForm.WmSortFinished(ref@Winapi.Messages.TMessage)" />
+      <reference referencedUin="delphi:e_field:src:ExtSort:ExtSortForm.TMainForm.FMergeController" />
+    </reference>
+  </view>
+</nodeSet>

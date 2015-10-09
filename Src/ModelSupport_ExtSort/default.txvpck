@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodeSet version="1.0">
+  <view uin="aihkmv1oh5o_v">
+    <property name="$defaultDiagram" value="true" />
+    <property name="$metaclass" value="Package Diagram" />
+    <property name="$name" value="default" />
+    <reference referencedUin="design:view:::u34z92ghl2g_v">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="10,10,100,134" />
+      <reference referencedUin="delphi:e_class:src:ExtSort:ExtSort.@unitclass" />
+    </reference>
+    <reference referencedUin="design:view:::g2rqlguzebg_v">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="400,340,116,243" />
+      <property name="location_set_by_user" value="True" />
+      <reference referencedUin="delphi:e_class:src:ExtSort:ExtSortFile.TFileReader" />
+      <reference referencedUin="delphi:e_class:src:ExtSort:ExtSortFile.TFileClass" />
+      <reference referencedUin="delphi:e_class:src:ExtSort:ExtSortFile.IFile" />
+      <reference referencedUin="delphi:e_class:src:ExtSort:ExtSortFile.IFileWriter" />
+      <reference referencedUin="delphi:e_class:src:ExtSort:ExtSortFile.IFileReader" />
+      <reference referencedUin="delphi:e_class:src:ExtSort:ExtSortFile.TTextFile" />
+      <reference referencedUin="delphi:e_class:src:ExtSort:ExtSortFile.TFileWriter" />
+      <reference referencedUin="delphi:e_class:src:ExtSort:ExtSortFile.@unitclass" />
+    </reference>
+    <reference referencedUin="design:view:::4b247a6ckke_v">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="20,360,131,151" />
+      <property name="location_set_by_user" value="True" />
+      <reference referencedUin="delphi:e_class:src:ExtSort:SimpleLogger.@unitclass" />
+      <reference referencedUin="delphi:e_class:src:ExtSort:SimpleLogger.TSimpleLogger" />
+    </reference>
+    <reference referencedUin="design:view:::hhdvebjmqlr_v">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="20,160,124,166" />
+      <property name="location_set_by_user" value="True" />
+      <reference referencedUin="delphi:e_class:src:ExtSort:ExtSortForm.@unitclass" />
+      <reference referencedUin="delphi:e_class:src:ExtSort:ExtSortForm.TStatusBarHelper" />
+      <reference referencedUin="delphi:e_class:src:ExtSort:ExtSortForm.TMainForm" />
+    </reference>
+    <reference referencedUin="design:view:::w7sjvv0rvqg_v">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="400,20,135,288" />
+      <property name="location_set_by_user" value="True" />
+      <reference referencedUin="delphi:e_class:src:ExtSort:ExtSortThread.ISeries" />
+      <reference referencedUin="delphi:e_class:src:ExtSort:ExtSortThread.TBaseThread" />
+      <reference referencedUin="delphi:e_class:src:ExtSort:ExtSortThread.@unitclass" />
+      <reference referencedUin="delphi:e_class:src:ExtSort:ExtSortThread.IMergeController" />
+      <reference referencedUin="delphi:e_class:src:ExtSort:ExtSortThread.IPhase" />
+      <reference referencedUin="delphi:e_class:src:ExtSort:ExtSortThread.ISort" />
+      <reference referencedUin="delphi:e_class:src:ExtSort:ExtSortThread.TAbstractSort" />
+      <reference referencedUin="delphi:e_class:src:ExtSort:ExtSortThread.TMergeController" />
+      <reference referencedUin="delphi:e_class:src:ExtSort:ExtSortThread.TPhase" />
+      <reference referencedUin="delphi:e_class:src:ExtSort:ExtSortThread.TSortClass" />
+      <reference referencedUin="delphi:e_class:src:ExtSort:ExtSortThread.TMerger" />
+      <reference referencedUin="delphi:e_class:src:ExtSort:ExtSortThread.TSeriesCreator" />
+      <reference referencedUin="delphi:e_class:src:ExtSort:ExtSortThread.IMerger" />
+    </reference>
+    <reference referencedUin="design:view:::v4wr3nhq0di_v">
+      <property name="$shortcutReference" value="true" />
+    </reference>
+    <reference referencedUin="design:view:::em9rst6xbmi_v">
+      <property name="$shortcutReference" value="true" />
+      <property name="@__package_fqn" value="ExtSortFactory" />
+      <property name="bounds" value="200,120,146,168" />
+      <property name="location_set_by_user" value="True" />
+      <reference referencedUin="delphi:e_class:src:ExtSort:ExtSortFactory.@unitclass" />
+      <reference referencedUin="delphi:e_class:src:ExtSort:ExtSortFactory.TSortFactorySingleton" />
+      <reference referencedUin="delphi:e_class:src:ExtSort:ExtSortFactory.ISortFactorySingleton" />
+    </reference>
+  </view>
+</nodeSet>
